@@ -1,0 +1,29 @@
+1. Explain how relational databases help maintain accuracy in expense records.
+Ans: Relational databases maintain accuracy using tables with relationships and keys.
+Foreign keys ensure that every expense is linked to a valid user and category.
+This prevents invalid or inconsistent data entries.
+
+2. Why are constraints important in personal finance data?
+Ans:Constraints enforce rules like primary keys, foreign keys, and data types.
+They prevent duplicate, missing, or incorrect data in financial records.
+This ensures reliable and consistent expense tracking.
+
+3. How does GROUP BY help analyse spending patterns?
+Ans:GROUP BY organizes data into categories like user or expense type.
+It allows calculations like total spending using SUM().
+This helps identify patterns such as highest spending category.
+
+4. Explain a scenario where rollback is required during expense entry.
+Ans:If a wrong expense amount is entered or duplicate data is added, rollback is used.
+It cancels the transaction before saving permanently.
+This helps maintain correct and error-free records.
+
+5. How do views help users track monthly expenses efficiently?
+Ans:Views store predefined queries for quick access to filtered data.
+They simplify complex queries into a reusable format.
+Users can easily track monthly expenses without rewriting SQL.
+
+6. Why use triggers for automatic category or balance updates?
+Ans:Triggers automatically execute actions when data changes occur.
+They help update balances or categories without manual effort.
+This ensures real-time accuracy and reduces human error.
